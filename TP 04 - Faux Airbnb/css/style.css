@@ -1,0 +1,152 @@
+h1, h4{
+	color: white;
+}
+
+.search-bar-banner{
+	margin: auto;
+}
+
+.search-banner{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.btn-search{
+	background-color: blue !important;
+	color: white !important;
+	border: none !important;
+}
+
+.btn-search:hover {
+	background-color: white !important;
+	color: blue !important;
+}
+
+.navbar{
+	position: fixed !important;
+	z-index: 1;
+	width: 100%;
+}
+
+.card-title{
+	padding-bottom: 20px;
+}
+
+.icon-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fas{
+	font-size: 60px;
+	padding: 20px;
+	color: green;
+}
+
+.fab{
+	font-size: 15px;
+}
+
+.card{
+	margin: 60px auto 100px auto;
+	box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, .2);
+}
+
+.logo{
+	width: 150px;
+}
+
+.dropdown-toggle{
+	color: black !important;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: lightgrey;
+}
+
+.container-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 20px auto;
+}
+
+.icons-footer{
+	display: flex;
+	justify-content: space-around;
+	width: 20%;
+}
+
+.banner{
+	background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+	width: 100%;
+	height: 970px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner input{
+	width: 600px !important;
+}
+
+span .fas{
+	color: red;
+	font-size: 15px;
+	margin: -10px;
+}
+
+.titre{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.card2{
+	width: auto;
+	max-width: 350px;
+	border: 1px solid lightgrey;
+	margin: 90px auto 30px auto;
+}
+
+.logements-h1{
+	margin-top: 120px !important;
+	color: black;
+	text-align: center;
+}
+
+.row{
+	margin: 0px !important;
+}
+
+.appart-bann{
+	background-image: url(../images/castle02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 80%;
+	margin: auto;
+	height: 350px;
+}
+
+.container-appart{
+	margin: auto !important;
+	width: 80%;
+}
+
+h2 p{
+	text-align: justify;
+	width: 100%;
+}

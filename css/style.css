@@ -33,6 +33,11 @@ h1, h4{
 	padding-bottom: 20px;
 }
 
+.card-img-top{
+	width: 350px;
+	height: 200px;
+}
+
 .icon-flex{
 	display: flex;
 	justify-content: center;
@@ -63,7 +68,7 @@ h1, h4{
 }
 
 .container{
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	margin-top: 50px;
 }
@@ -145,13 +150,20 @@ span .fas{
 	margin: 0px !important;
 }
 
-.appart-bann{
+.appart-bann-hyrule{
 	background-image: url(../images/castle02.png);
+}
+
+.appart-bann-cocorico{
+	background-image: url(../images/cocorico3.jpg);
+}
+
+.appart-bann-hyrule, .appart-bann-cocorico{
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 80%;
 	margin: auto;
-	height: 350px;
+	height: 500px;
 }
 
 .container-appart{
